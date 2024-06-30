@@ -1,0 +1,166 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OfflineMusicPlayer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+    </style>
+
+    <style name="Theme.OfflineMusicPlayer" parent="Base.Theme.OfflineMusicPlayer">
+        <item name="colorPrimary">@color/light_orange</item>
+
+    </style>
+
+
+
+    <attr name="themeColor" format="color" />
+
+    <!--    Background as well as text color for alert dialog buttons-->
+    <attr name="dialogTextColor" format="color" />
+    <attr name="dialogBtnBackground" format="color" />
+
+    //Theme for Activities
+
+    <style name="coolPink" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="themeColor">@color/orange</item>
+        <item name="colorPrimary">@color/my_yellow</item>
+        <item name="colorPrimaryVariant">#FFB300</item>
+        <item name="colorOnPrimary">#B66909</item>
+        <item name="colorSecondary">@color/yellow</item>
+        <item name="colorSecondaryVariant">@color/light_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="coolBlue" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">#039BE5</item>
+        <item name="colorPrimary">#2C94A0</item>
+        <item name="colorPrimaryVariant">#039BE5</item>
+        <item name="colorOnPrimary">#24A7E7</item>
+        <item name="colorSecondary">#184662</item>
+        <item name="colorSecondaryVariant">#132F66</item>
+        <item name="colorOnSecondary">#0C4662</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="coolPurple" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">@color/purple</item>
+        <item name="colorPrimary">#9B63E9</item>
+        <item name="colorPrimaryVariant">#762B8A</item>
+        <item name="colorOnPrimary">#B61EDE</item>
+        <item name="colorSecondary">#521961</item>
+        <item name="colorSecondaryVariant">#6F0C89</item>
+        <item name="colorOnSecondary">#65117C</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="coolGreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">@color/cool_green</item>
+        <item name="colorPrimary">#BCF8A7</item>
+        <item name="colorPrimaryVariant">@color/cool_green</item>
+        <item name="colorOnPrimary">@color/cool_green</item>
+        <item name="colorSecondary">#2A901F</item>
+        <item name="colorSecondaryVariant">#5FB42B</item>
+        <item name="colorOnSecondary">#228012</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+
+    <style name="coolBlack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="themeColor">@color/black</item>
+        <item name="colorPrimary">#48484D</item>
+        <item name="colorPrimaryVariant">#3A3A3A</item>
+        <item name="colorOnPrimary">#4D4C4C</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">@color/white</item>
+        <item name="dialogTextColor">@color/black</item>
+    </style>
+    //Theme for Navigation Drawer
+
+    <style name="coolPinkNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">@color/orange</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">#FFB300</item>
+        <item name="colorOnPrimary">#B66909</item>
+        <item name="colorSecondary">@color/yellow</item>
+        <item name="colorSecondaryVariant">@color/light_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="coolBlueNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">#039BE5</item>
+        <item name="colorPrimary">#2C94A0</item>
+        <item name="colorPrimaryVariant">#039BE5</item>
+        <item name="colorOnPrimary">#24A7E7</item>
+        <item name="colorSecondary">#184662</item>
+        <item name="colorSecondaryVariant">#132F66</item>
+        <item name="colorOnSecondary">#0C4662</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="coolPurpleNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">@color/purple</item>
+        <item name="colorPrimary">#9B63E9</item>
+        <item name="colorPrimaryVariant">#762B8A</item>
+        <item name="colorOnPrimary">#B61EDE</item>
+        <item name="colorSecondary">#521961</item>
+        <item name="colorSecondaryVariant">#6F0C89</item>
+        <item name="colorOnSecondary">#65117C</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="coolGreenNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">@color/cool_green</item>
+        <item name="colorPrimary">#BCF8A7</item>
+        <item name="colorPrimaryVariant">@color/cool_green</item>
+        <item name="colorOnPrimary">@color/cool_green</item>
+        <item name="colorSecondary">#2A901F</item>
+        <item name="colorSecondaryVariant">#5FB42B</item>
+        <item name="colorOnSecondary">#228012</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+
+
+    <style name="coolBlackNav" parent="Theme.MaterialComponents.DayNight">
+        <item name="themeColor">@color/black</item>
+        <item name="colorPrimary">#424243</item>
+        <item name="colorPrimaryVariant">#3A3A3A</item>
+        <item name="colorOnPrimary">#4D4C4C</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="dialogBtnBackground">@color/white</item>
+        <item name="dialogTextColor">@color/black</item>
+    </style>
+
+
+</resources>
